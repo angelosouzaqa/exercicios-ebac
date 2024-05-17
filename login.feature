@@ -22,9 +22,10 @@ Funcionalidade: Login na Plataforma
     Esquema do Cenario: Autenticar Multiplo Usuários
         Quando eu digitar o <usuario>
         E a <senha>
-        Então deve exibir a mensagem de sucesso: "Bem vindo a EBAC-SHOP" e o usuário deve ser direcionado para a tela de checkout
+        Então deve exibir a <mensagem> de sucesso
 
         Exemplos:
+            | usuario             | senha    | mensagem   |
             | joao123@gmail.com   | joao123  | Olá João!  |
             | maria123@gmail.Como | maria123 | Olá Maria! |
             | jose123@gmail.Como  | jose123  | Olá José!  |
